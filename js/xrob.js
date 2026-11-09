@@ -205,3 +205,23 @@ var csp_XrobMrds = {
         return J({ list: list });
     }
 };
+
+/* ---- 适配 FongMi TVBox 的 JS 接口命名 ---- */
+function xrobAdapt(s) {
+    s.homeContent = function (filter) { return s.home(filter || {}); };
+    s.homeVod = function () { return J({ list: [] }); };
+    s.categoryContent = function (tid, pg, filter, extend) { return s.category(tid, pg, filter, extend); };
+    s.detailContent = function (ids) {
+        var id = "";
+        if (typeof ids === "string") id = ids;
+        else if (ids && ids.length) id = String(ids[0]);
+        return s.detail(id);
+    };
+    s.playerContent = function (flag, id, flags) { return s.play(flag, id, flags); };
+    s.searchContent = function (wd, quick) { return s.search(wd, quick); };
+    if (!s.init) s.init = function (cfg) { };
+    return s;
+}
+xrobAdapt(csp_XrobHuangguo);
+xrobAdapt(csp_Xrob91);
+xrobAdapt(csp_XrobMrds);
