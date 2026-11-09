@@ -37,6 +37,15 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+    },
+    {
+      "key": "xrob_test_js",
+      "name": "🧪┆诊断┆JS级别",
+      "type": 3,
+      "api": "js:./js/xrob.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     }
   ],
   "lives": [],
