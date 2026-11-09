@@ -1,12 +1,20 @@
 {
-  "spider": "./js/xrob.js",
   "wallpaper": "",
   "sites": [
+    {
+      "key": "xrob_test",
+      "name": "🧪┆诊断┆静态",
+      "type": 3,
+      "api": "js:https://raw.githubusercontent.com/Bejamin-ops/xrob-tvbox/main/js/test.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
     {
       "key": "xrob_hg",
       "name": "🎬┆短剧┆黄果",
       "type": 3,
-      "api": "csp_XrobHuangguo",
+      "api": "js:https://raw.githubusercontent.com/Bejamin-ops/xrob-tvbox/main/js/hg.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -15,7 +23,7 @@
       "key": "xrob_91",
       "name": "📱┆短视频┆91",
       "type": 3,
-      "api": "csp_Xrob91",
+      "api": "js:https://raw.githubusercontent.com/Bejamin-ops/xrob-tvbox/main/js/j91.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
@@ -24,27 +32,9 @@
       "key": "xrob_mrds",
       "name": "🏆┆大赛┆每日",
       "type": 3,
-      "api": "csp_XrobMrds",
+      "api": "js:https://raw.githubusercontent.com/Bejamin-ops/xrob-tvbox/main/js/mrds.js",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "xrob_test",
-      "name": "🧪┆诊断┆静态",
-      "type": 3,
-      "api": "csp_XrobTest",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "xrob_test_js",
-      "name": "🧪┆诊断┆JS级别",
-      "type": 3,
-      "api": "js:./js/xrob.js",
-      "searchable": 0,
-      "quickSearch": 0,
       "filterable": 0
     }
   ],
