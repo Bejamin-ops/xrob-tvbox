@@ -1,0 +1,13 @@
+{
+  "spider": "./js/xrob.js",
+  "wallpaper": "",
+  "sites": [
+    { "key": "xrob_hg",   "name": "🎬┆短剧┆黄果",   "type": 3, "api": "csp_XrobHuangguo", "searchable": 1, "quickSearch": 1, "filterable": 0 },
+    { "key": "xrob_91",   "name": "📱┆短视频┆91",   "type": 3, "api": "csp_Xrob91",       "searchable": 1, "quickSearch": 1, "filterable": 0 },
+    { "key": "xrob_mrds", "name": "🏆┆大赛┆每日",   "type": 3, "api": "csp_XrobMrds",     "searchable": 1, "quickSearch": 1, "filterable": 0 }
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
+  "ijk": []
+}
